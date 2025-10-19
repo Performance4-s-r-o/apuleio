@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetadataForClinicalKnowledgeResources>
+    <ResourceForm>
+        <Type>
+            <Text>false</Text>
+            <MovingImage>false</MovingImage>
+            <StillImage>true</StillImage>
+            <Sound>false</Sound>
+            <Dataset>false</Dataset>
+            <Software>false</Software>
+            <Device>false</Device>
+            <DatabaseForHumans>false</DatabaseForHumans>
+            <InteractiveResource>false</InteractiveResource>
+        </Type>
+        <Format>
+            <Name>JPEG</Name>
+            <Extent>2 MB</Extent>
+            <Medium>Digital</Medium>
+        </Format>
+        <Language>English</Language>
+    </ResourceForm>
+
+    <IntendedUse>
+        <Audience>Physicians</Audience>
+        <Situation>Hospital diagnostics</Situation>
+        <ClinicalProcessStage>Assessment</ClinicalProcessStage>
+    </IntendedUse>
+
+    <SubjectAndScope>
+        <Description>Clinical CT reference image for qMRI</Description>
+        <Relation>apuleio</Relation>
+        <Subject>
+            <SubjectCriteriaInclusion>Adults (18+)</SubjectCriteriaInclusion>
+            <SubjectCriteriaExclusion>Children</SubjectCriteriaExclusion>
+        </Subject>
+    </SubjectAndScope>
+
+    <QualityControl>
+        <EvidenceGrade>A</EvidenceGrade>
+        <RiskClass>Low</RiskClass>
+        <RecommendationStrength>Strong</RecommendationStrength>
+    </QualityControl>
+
+    <IdentificationAndSource>
+        <Creator>
+            <Name>Dr. Jane Doe</Name>
+            <Contact>jane.doe@hospital.org</Contact>
+        </Creator>
+        <Date>
+            <DateCreated>2022-05-01</DateCreated>
+            <DateAvailable>2022-06-01</DateAvailable>
+            <DateIssued>2022-05-10</DateIssued>
+        </Date>
+        <Identifier>CKR-IMG-00045</Identifier>
+        <Title>CT Chest Clinical Diagnostic Resource</Title>
+        <Status>Active</Status>
+        <Rights>CC-BY-4.0</Rights>
+        <Publisher>
+            <Type>Organization</Type>
+            <Name>Medical Imaging Consortium</Name>
+            <Contact>info@mic.org</Contact>
+        </Publisher>
+    </IdentificationAndSource>
+</MetadataForClinicalKnowledgeResources>
+ 
