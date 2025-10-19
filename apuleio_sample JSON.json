@@ -1,0 +1,61 @@
+{
+  "Metadata for clinical knowledge resources": {
+    "ResourceForm": {
+      "Type": {
+        "Text": false,
+        "MovingImage": false,
+        "StillImage": true,
+        "Sound": false,
+        "Dataset": false,
+        "Software": false,
+        "Device": false,
+        "DatabaseForHumans": false,
+        "InteractiveResource": false
+      },
+      "Format": {
+        "Name": "JPEG",
+        "Extent": "2 MB",
+        "Medium": "Digital"
+      },
+      "Language": "English"
+    },
+    "IntendedUse": {
+      "Audience": "Physicians",
+      "Situation": "Hospital diagnostics",
+      "ClinicalProcessStage": "Assessment"
+    },
+    "SubjectAndScope": {
+      "Description": "Clinical CT reference image for qMRI.",
+      "Relation": "Apuleio",
+      "Subject": {
+        "SubjectCriteriaInclusion": "Adults (18+)",
+        "SubjectCriteriaExclusion": "Children"
+      }
+    },
+    "QualityControl": {
+      "EvidenceGrade": "A",
+      "RiskClass": "Low",
+      "RecommendationStrength": "Strong"
+    },
+    "IdentificationAndSource": {
+      "Creator": {
+        "Name": "Dr. Jane Doe",
+        "Contact": "jane.doe@hospital.org"
+      },
+      "Date": {
+        "DateCreated": "2022-05-01",
+        "DateAvailable": "2022-06-01",
+        "DateIssued": "2022-05-10"
+      },
+      "Identifier": "CKR-IMG-00045",
+      "Title": "CT Chest Clinical Diagnostic Resource",
+      "Status": "Active",
+      "Rights": "CC-BY-4.0",
+      "Publisher": {
+        "Type": "Organization",
+        "Name": "Medical Imaging Consortium",
+        "Contact": "info@mic.org"
+      }
+    }
+  }
+}
